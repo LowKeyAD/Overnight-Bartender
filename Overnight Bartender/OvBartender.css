@@ -1,0 +1,98 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  
+  
+  body{
+    background-image: url(https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/Frenchette-Whole_20Bar-Kate_20Previte);
+    background-size: cover;
+  
+  }
+  
+  #banner{
+    border: 1px solid red;
+    background-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 50px;
+    letter-spacing: .3rem;
+    animation: blinkingText 0.1s infinite;
+  }
+  
+  @keyframes blinkingText{
+    0%{     color: red;    }
+    40%{    color: blue; }
+    60%{    color: white; }
+    90%{    color:transparent;  }
+    100%{   color: green;    }
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+  }
+  
+  #box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  h3{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+  }
+  
+  #pic{
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    background-color: black;
+    width: 30%;
+    margin-left: 20%;
+  }
+  
+  #steps{
+    
+    float: right;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    margin-right: 20%;
+    
+    
+  }
+  
+  img{
+    flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+  }
+  
+  h4{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: black;
+    font-style: italic;
+  }
